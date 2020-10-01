@@ -13,8 +13,8 @@ int main()
 	while (var != 0)	//while the var is not equal to 0 run the following code
 	{
 		printf("Press: 0 out, 1 print Name, 2 print Age, otherwise Height\n");
-		scanf_s("%d", &var); //Scanf is used to get input from keyboard, keep in mind & operator
-		
+		scanf("%d", &var); //Scanf is used to get input from keyboard, keep in mind & operator
+
 		if (var == 0)
 			printf("Loop is broken\n"); //Since only one line code follows if no need for {}
 
@@ -34,7 +34,7 @@ int main()
 	while (1)	//run in infinite loop
 	{
 		printf("Guess the Number");
-		scanf_s("%d", &var);
+		scanf("%d", &var);
 
 		if (var > 5)
 			printf("Lower\n");
@@ -49,7 +49,7 @@ int main()
 
 	/*do-while runs first then checks the while*/
 	int down_counter = 20;
-	do 
+	do
 	{
 		printf("Down Counter is %d\n", down_counter);
 		down_counter--;									//down_counter = down_counter - 1
@@ -62,7 +62,7 @@ int main()
 	while (1)
 	{
 		printf("Guess the Number");
-		scanf_s("%d", &var);
+		scanf("%d", &var);
 
 		if (var > 10)
 		{
@@ -89,7 +89,7 @@ int main()
 	while (1)
 	{
 		printf("Enter var1 and var2: ");
-		scanf_s("%d%d", &var1, &var2);
+		scanf("%d%d", &var1, &var2);
 
 		if ((var1 == 1) && (var2 == 1))
 		{
